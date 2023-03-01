@@ -1,0 +1,12 @@
+name: snowparksimilarity
+channels:
+  - snowflake
+  - conda
+dependencies:
+  - python=3.8
+  - snowflake-snowpark-python==1.1.0
+  - pandas
+  - spacy==3.3.0
+  - ipykernel
+  - jupyter
+  - cachetools==4.2.2
